@@ -1,21 +1,12 @@
 <resources>
-    <string name="app_name">YourMovies</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Your Movies</string>
-    <string name="nav_header_subtitle">Пользователь</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Настройки</string>
-
-    <string name="menu_home">Главная</string>
-    <string name="menu_watch_latter">Посмотреть позже</string>
-    <string name="menu_favorites">Избранное</string>
-    <string name="menu_genres">Жанры</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-    <string name="communicate">Communicate</string>
+    <string name="app_name">Your Movies</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Избранное</string>
+    <string name="title_watch_latter">Посмотреть позже</string>
     <string name="hint_email">Login</string>
-    <string name="btn_login">Enter</string>
-    <string name="btn_link_to_register">registration</string>
     <string name="hint_password">Password</string>
+    <string name="btn_login">Enter</string>
+    <string name="btn_link_to_register"><u>registration</u></string>
+    <string name="title_genres">Жанры</string>
+    <string name="title_person">Профиль</string>
 </resources>

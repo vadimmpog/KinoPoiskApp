@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="colorWindowBackground">#404040</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
     <color name="white">#FFFFFF</color>
-    <color name="bg_login">#2B2B2B</color>
-    <color name="btn_login_bg">#F2C572</color>
-    <color name="btn_login">#F29544</color>
-    <color name="input_login">#F29544</color>
-    <color name="input_login_hint">#F29544</color>
-
-<!--    <color name="main"></color>-->
-<!--    <color name="main2"></color>-->
-<!--    <color name="aspect1"></color>-->
-<!--    <color name="aspect2"></color>-->
+    <color name="colorAccentText">#03DAC5</color>
 </resources>

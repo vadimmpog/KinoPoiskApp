@@ -3,41 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.kinopoisk.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:id="@+id/navigation_home"
+        android:name="com.example.kinopoiskapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_latter"
-        android:name="com.example.kinopoisk.ui.watch_latter.GalleryFragment"
-        android:label="@string/menu_watch_latter"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.kinopoiskapp.ui.favorite.FavoriteFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_favorite" />
 
     <fragment
-        android:id="@+id/nav_favorites"
-        android:name="com.example.kinopoisk.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_favorites"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/navigation_watch_latter"
+        android:name="com.example.kinopoiskapp.ui.watch_latter.WatchLFragment"
+        android:label="@string/title_watch_latter"
+        tools:layout="@layout/fragment_watch_latter" />
 
     <fragment
-        android:id="@+id/nav_genres"
-        android:name="com.example.kinopoisk.ui.tools.ToolsFragment"
-        android:label="@string/menu_genres"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/navigation_genres"
+        android:name="com.example.kinopoiskapp.ui.genres.GenresFragment"
+        android:label="@string/title_genres"
+        tools:layout="@layout/fragment_genres" />
 
     <fragment
-        android:id="@+id/nav_share"
-        android:name="com.example.kinopoisk.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.kinopoisk.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/navigation_person"
+        android:name="com.example.kinopoiskapp.ui.person.PersonFragment"
+        android:label="@string/title_watch_latter"
+        tools:layout="@layout/fragment_watch_latter" />
 </navigation>
