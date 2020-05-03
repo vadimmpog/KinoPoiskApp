@@ -1,4 +1,4 @@
-package com.example.kinopoisk.ui.gallery;
+package com.example.kinopoisk.ui.watch_latter;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

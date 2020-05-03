@@ -3,10 +3,16 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">#2B2B2B</item>
+        <!-- Light Indigo -->
+        <item name="colorPrimaryDark">#2B2B2B</item> <!--затолкать все в color -->
+        <!-- Dark Indigo -->
+        <item name="colorAccent">#A3B9B9</item>
+        <item name="android:windowBackground">@color/colorWindowBackground</item>
+
     </style>
+
+
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -16,5 +22,12 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="My" parent="Theme.Design">
+        <item name="android:textColor">#F2C572</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+
 
 </resources>

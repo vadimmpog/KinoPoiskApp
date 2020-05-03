@@ -1,4 +1,4 @@
-package com.example.kinopoisk.ui.gallery;
+package com.example.kinopoisk.ui.watch_latter;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
