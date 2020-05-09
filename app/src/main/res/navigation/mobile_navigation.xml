@@ -24,8 +24,8 @@
         tools:layout="@layout/fragment_watch_latter" />
 
     <fragment
-        android:id="@+id/navigation_genres"
-        android:name="com.example.kinopoiskapp.ui.genres.GenresFragment"
+        android:id="@+id/navigation_search"
+        android:name="com.example.kinopoiskapp.ui.search.SearchFragment"
         android:label="@string/title_genres"
         tools:layout="@layout/fragment_genres" />
 

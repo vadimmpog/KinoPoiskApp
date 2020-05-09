@@ -7,6 +7,6 @@
     <string name="hint_password">Password</string>
     <string name="btn_login">Enter</string>
     <string name="btn_link_to_register"><u>registration</u></string>
-    <string name="title_genres">Жанры</string>
+    <string name="title_genres">Поиск</string>
     <string name="title_person">Профиль</string>
 </resources>
