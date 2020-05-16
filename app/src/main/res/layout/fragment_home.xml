@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
     android:orientation="vertical"
-    android:background="@drawable/tile"
+
 
     >
 
@@ -15,7 +15,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:numColumns="2"
-        android:verticalSpacing="10dp"/>
+        android:verticalSpacing="10dp"
+        android:paddingTop="10dp"/>
 
 
 </LinearLayout>

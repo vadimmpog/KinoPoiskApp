@@ -16,6 +16,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.kinopoiskapp.ImageAdapter;
+import com.example.kinopoiskapp.MainActivity;
 import com.example.kinopoiskapp.R;
 
 
@@ -25,7 +26,7 @@ public class HomeFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-
+//        view.setBackgroundResource(R.drawable.tile);
 
 
         gridView = (GridView) view.findViewById(R.id.gridView1);
